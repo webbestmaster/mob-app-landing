@@ -1,0 +1,14 @@
+.reviews {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    align-content: center;
+}
+
+.reviews-title {
+    font-size: 48px;
+    color: #2ABF5E;
+}
