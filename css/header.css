@@ -1,0 +1,15 @@
+.header {
+    margin: 0 auto;
+    background-color: #2abf5e;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.header-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 14px;
+}

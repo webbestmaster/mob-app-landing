@@ -1,0 +1,34 @@
+.about {
+    text-align: center;
+    padding: 90px 0 165px;
+}
+
+.about-title {
+    font-size: 48px;
+    color: #2ABF5E;
+    font-weight: bold;
+}
+
+.about-text {
+    font-size: 30px;
+    margin: 50px 0 130px;
+}
+
+.about-image-link-1 {
+    background-image: url(../images/about-1.png);
+}
+
+.about-image-link-2 {
+    background-image: url(../images/about-2.png);
+}
+
+.about-image-link-3 {
+    background-image: url(../images/about-3.png);
+}
+
+.about-image-link-1, .about-image-link-2, .about-image-link-3 {
+    display: inline-flex;
+    height: 240px;
+    width: 240px;
+    margin: 0 60px;
+}
