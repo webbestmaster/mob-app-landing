@@ -5,10 +5,43 @@
 
 .review {
     display: flex;
-    align-content: center;
+    text-align: left;
+    padding-bottom: 50px;
 }
 
 .reviews-title {
     font-size: 48px;
     color: #2ABF5E;
+    margin: 100px 0;
+}
+
+.review-text-wrapper {
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.review-text, .review-username {
+    font-size: 24px;
+    color: #888888;
+}
+
+.review-username{
+    margin-top: 40px;
+    float: right;
+}
+
+.reviews-read-more {
+    padding: 20px 80px;
+    background-color: #2ABF5E;
+    border: 2px solid #1F8F47;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.reviews-read-more:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #1F8F47;
 }
