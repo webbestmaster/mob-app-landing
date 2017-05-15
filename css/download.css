@@ -1,3 +1,7 @@
+.download-wrapper {
+    padding: 90px 0 115px;
+}
+
 .download {
     position: relative;
     margin: 0 auto;
@@ -12,6 +16,7 @@
 .download-text {
     font-size: 36px;
     color: #888888;
+    margin: 70px 0 70px;
 }
 
 .download-left-text, .download-right-text {
@@ -28,4 +33,19 @@
 .download-right-text {
     right: 0;
     bottom: 0;
+}
+
+.download-download, .download-buy {
+    padding: 20px 80px;
+    background-color: #2ABF5E;
+    border: 2px solid #1F8F47;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.download-download:hover, .download-buy:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #1F8F47;
 }

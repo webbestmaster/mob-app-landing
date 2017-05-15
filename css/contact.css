@@ -35,6 +35,8 @@
     font-size: 18px;
 }
 
-.contact-submit {
+.contact-submit:hover {
     cursor: pointer;
+    background-color: #fff;
+    color: #1F8F47;
 }
