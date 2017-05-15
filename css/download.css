@@ -1,0 +1,31 @@
+.download {
+    position: relative;
+    margin: 0 auto;
+}
+
+.download-title {
+    font-size: 46px;
+    font-weight: bold;
+    color: #2ABF5E;
+}
+
+.download-text {
+    font-size: 36px;
+    color: #888888;
+}
+
+.download-left-text, .download-right-text {
+    max-width: 320px;
+    position: absolute;
+    margin: 10px;
+}
+
+.download-left-text {
+    top: 0;
+    left: 0;
+}
+
+.download-right-text {
+    right: 0;
+    bottom: 0;
+}
