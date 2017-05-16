@@ -1,10 +1,11 @@
 .slider-wrapper {
     background-image: url(../images/slider-background.png);
-    padding: 180px 0 260px;
+    padding: 180px 0 110px;
 }
 
 .swiper-slide {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .slider-text-wrapper {

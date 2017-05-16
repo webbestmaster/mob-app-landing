@@ -4,13 +4,18 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 25px 0
+}
 
+.header-navigation {
+    height: 43px;
+    line-height: 43px;
 }
 
 .header-link {
     text-decoration: none;
     color: #FFFFFF;
-    padding: 25px;
+    margin: 0 25px;
     font-size: 14px;
 }
 
