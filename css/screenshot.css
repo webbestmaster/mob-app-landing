@@ -11,15 +11,15 @@
     margin-bottom: 270px;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.screenshot-wrapper .swiper-button-prev, .screenshot-wrapper .swiper-button-next {
     display: none;
 }
 
-.swiper-wrapper {
+.screenshot-wrapper .swiper-wrapper {
     margin-bottom: 150px;
 }
 
-.swiper-pagination-bullet {
+.screenshot-wrapper .swiper-pagination-bullet{
     background-color: #fff;
     height: 25px;
     width: 25px;

@@ -1,0 +1,32 @@
+.slider-wrapper {
+    background-image: url(../images/slider-background.png);
+    padding: 180px 0 260px;
+}
+
+.swiper-slide {
+    display: flex;
+}
+
+.slider-text-wrapper {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 75px;
+}
+
+.slider-title {
+    font-size: 60px;
+    color: #fff;
+}
+
+.slider-text {
+    font-size: 47px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+}
