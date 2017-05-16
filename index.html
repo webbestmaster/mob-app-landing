@@ -66,6 +66,24 @@
     <input type="submit" value="READ MORE" class="reviews-read-more">
 </div>
 
+<div class="screenshot-wrapper">
+    <p class="screenshot-title">SCREENSHOT</p>
+    <div class="swiper-container max-width-960">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/screen-1.png"></div>
+            <div class="swiper-slide"><img src="images/screen-2.png"></div>
+            <div class="swiper-slide"><img src="images/screen-3.png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="slide-switch">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
+
 <div class="demo max-width-960">
     <p class="demo-title">DEMO</p>
     <div class="demo-content-wrapper">
@@ -89,7 +107,7 @@
                     <p class="demo-description-text">10   All needed components</p>
                     <p class="demo-description-text">7    Samples</p>
                     <p class="demo-description-text">25   Pictures</p>
-            </div>
+                </div>
             </div>
         </div>
     </div>
@@ -123,5 +141,16 @@
     </div>
     <input type="submit" value="SUBMIT" class="contact-submit">
 </div>
+<script src="js/slideshow.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+</script>
 </body>
 </html>
