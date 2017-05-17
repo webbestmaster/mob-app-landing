@@ -5,3 +5,57 @@
 .max-width-960 {
     max-width: 960px;
 }
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Medium';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-Medium.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Bold';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-Bold.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Light';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-Light.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr UltraLight';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-UltraLight_0.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr LightItalic';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-LightItalic.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Roman';
+    src: url(../font/Helvetica-Neue-Cyr/HelveticaNeueCyr-Roman.otf);
+}
+
+.header-navigation {
+    font-family: 'HelveticaNeueCyr Bold';
+}
+
+.slider-title, .about-text, .features-text, .contact-input-name {
+    font-family: 'HelveticaNeueCyr Light';
+}
+
+.slider-text, .demo-text, .download-text {
+    font-family: 'HelveticaNeueCyr UltraLight';
+}
+
+.about-title, .features-title, .features-text-bold, .reviews-title, .screenshot-title, .demo-title, .contact-title {
+    font-family: 'HelveticaNeueCyr Medium';
+}
+
+.review-text {
+    font-family: 'HelveticaNeueCyr LightItalic';
+}
+
+.review-username, .reviews-read-more, .demo-view, .demo-description-title, .demo-description-text, .download-title, .download-buy, .contact-submit {
+    font-family: 'HelveticaNeueCyr Roman';
+}

@@ -7,6 +7,7 @@
 .features {
     position: relative;
     margin: 0 auto;
+    text-align: left;
 }
 
 .features-title, .features-text-bold, .features-text, .features-link {
@@ -19,7 +20,7 @@
 
 .features-text-block {
     max-width: 470px;
-    padding-bottom: 130px;
+    padding-bottom: 190px;
 }
 
 .features-text-bold, .features-text {
@@ -27,7 +28,7 @@
 }
 
 .features-text-bold {
-    margin-top: 230px;
+    margin-top: 140px;
 }
 
 .features-text {

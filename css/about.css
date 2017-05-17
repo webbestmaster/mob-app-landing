@@ -1,16 +1,17 @@
 .about {
     text-align: center;
     padding: 90px 0 165px;
+    margin: 0 auto;
 }
 
 .about-title {
     font-size: 48px;
     color: #2ABF5E;
-    font-weight: bold;
 }
 
 .about-text {
     font-size: 30px;
+    color: #888888;
     margin: 50px 0 130px;
 }
 
@@ -26,9 +27,22 @@
     background-image: url(../images/about-3.png);
 }
 
-.about-image-link-1, .about-image-link-2, .about-image-link-3 {
-    display: inline-flex;
+.about-image-wrapper {
     height: 240px;
     width: 240px;
-    margin: 0 60px;
+    margin: 15px;
+    border: 2px solid red;
+}
+
+.about-image-link-1, .about-image-link-2, .about-image-link-3 {
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+.about-images {
+    border: 2px solid #2ABF5E;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-between;
 }

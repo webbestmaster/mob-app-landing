@@ -1,5 +1,8 @@
 .slider-wrapper {
+    /*background-color: #2ABF5E;*/
     background-image: url(../images/slider-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
     padding: 180px 0 110px;
 }
 
