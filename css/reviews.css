@@ -9,6 +9,11 @@
     padding-bottom: 50px;
 }
 
+.reviews-image {
+    height: 210px;
+    width: 210px;
+}
+
 .reviews-title {
     font-size: 48px;
     color: #2ABF5E;

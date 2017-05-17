@@ -3,8 +3,7 @@
     background-color: #2abf5e;
     display: flex;
     justify-content: center;
-    align-content: center;
-    padding: 25px 0
+    padding: 25px;
 }
 
 .header-navigation {
