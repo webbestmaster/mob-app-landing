@@ -36,27 +36,13 @@
     margin-bottom: 75px;
 }
 
-.demo-view {
-    padding: 20px 70px;
-    background-color: #2ABF5E;
-    border: 2px solid #1F8F47;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
-}
-
-.demo-view:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: #1F8F47;
-}
-
 .demo-description {
     display: flex;
     padding: 125px 0;
 }
 
-.demo-description-left, .demo-description-right {
+.demo-description-left,
+.demo-description-right {
     width: 50%;
 }
 

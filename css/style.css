@@ -37,25 +37,69 @@
 }
 
 .header-navigation {
-    font-family: 'HelveticaNeueCyr Bold';
+    font-family: 'HelveticaNeueCyr Bold', sans-serif;
 }
 
-.slider-title, .about-text, .features-text, .contact-input-name {
-    font-family: 'HelveticaNeueCyr Light';
+.slider-title,
+.about-text,
+.features-text,
+.contact-input-name,
+.contact-imput {
+    font-family: 'HelveticaNeueCyr Light', sans-serif;
 }
 
-.slider-text, .demo-text, .download-text {
-    font-family: 'HelveticaNeueCyr UltraLight';
+.slider-text,
+.demo-text, .download-text {
+    font-family: 'HelveticaNeueCyr UltraLight', sans-serif;
 }
 
-.about-title, .features-title, .features-text-bold, .reviews-title, .screenshot-title, .demo-title, .contact-title {
-    font-family: 'HelveticaNeueCyr Medium';
+.about-title,
+.features-title,
+.features-text-bold,
+.reviews-title,
+.screenshot-title,
+.demo-title,
+.contact-title {
+    font-family: 'HelveticaNeueCyr Medium', sans-serif;
 }
 
 .review-text {
-    font-family: 'HelveticaNeueCyr LightItalic';
+    font-family: 'HelveticaNeueCyr LightItalic', sans-serif;
 }
 
-.review-username, .reviews-read-more, .demo-view, .demo-description-title, .demo-description-text, .download-title, .download-buy, .contact-submit {
-    font-family: 'HelveticaNeueCyr Roman';
+.review-username,
+.reviews-read-more,
+.demo-view,
+.demo-description-title,
+.demo-description-text,
+.download-title,
+.download-buy,
+.contact-submit {
+    font-family: 'HelveticaNeueCyr Roman', sans-serif;
+}
+
+.features-link:hover,
+.reviews-read-more:hover,
+.contact-submit:hover,
+.demo-view:hover,
+.download-download:hover,
+.download-buy:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #1F8F47;
+}
+
+.features-link,
+.reviews-read-more,
+.contact-submit,
+.demo-view,
+.download-download,
+.download-buy {
+    background-color: #2ABF5E;
+    border: 2px solid #1F8F47;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 80px;
+    text-decoration: none;
 }

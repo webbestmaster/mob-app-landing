@@ -18,7 +18,8 @@
     margin: 70px 0 70px;
 }
 
-.download-left-text, .download-right-text {
+.download-left-text,
+.download-right-text {
     max-width: 320px;
     position: absolute;
     margin: 10px;
@@ -32,19 +33,4 @@
 .download-right-text {
     right: 0;
     bottom: 0;
-}
-
-.download-download, .download-buy {
-    padding: 20px 80px;
-    background-color: #2ABF5E;
-    border: 2px solid #1F8F47;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
-}
-
-.download-download:hover, .download-buy:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: #1F8F47;
 }

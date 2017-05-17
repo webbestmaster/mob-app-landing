@@ -10,7 +10,10 @@
     text-align: left;
 }
 
-.features-title, .features-text-bold, .features-text, .features-link {
+.features-title,
+.features-text-bold,
+.features-text,
+.features-link {
     color: #fff;
 }
 
@@ -23,7 +26,8 @@
     padding-bottom: 190px;
 }
 
-.features-text-bold, .features-text {
+.features-text-bold,
+.features-text {
     font-size: 36px;
 }
 
@@ -33,18 +37,6 @@
 
 .features-text {
     margin: 80px 0 70px;
-}
-
-.features-link {
-    text-decoration: none;
-    padding: 25px 90px;
-    border: 1px solid #1F8F47;
-    border-radius: 5px;
-}
-
-.features-link:hover {
-    background-color: #fff;
-    color: #1F8F47;
 }
 
 .features-image {

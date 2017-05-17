@@ -27,7 +27,9 @@
     background-image: url(../images/about-3.png);
 }
 
-.about-image-link-1, .about-image-link-2, .about-image-link-3 {
+.about-image-link-1,
+.about-image-link-2,
+.about-image-link-3 {
     display: inline-flex;
     height: 240px;
     width: 240px;
